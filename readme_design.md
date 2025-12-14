@@ -299,15 +299,7 @@ DCASE는 공식 지표로 **AUC, pAUC(FPR≤0.1)**를 쓰고, 공식 점수는 �
   3. 노이즈-only를 **정량적으로 어떻게 보정에 쓰는지**(threshold calibration, score normalization, noise-aware embedding) 고도화가 필요
   4. C는 메타데이터 품질/카디널리티 설계가 핵심이라, “고객이 메타를 얼마나 안정적으로 주는지”에 따라 적용 여부를 자동 판단해야 함 
 
----
 
-원하시면, 다음 단계로 “Form(수량·조건) 템플릿”을 **6~7개 소리별로 바로 고객에게 보낼 수 있는 수준**으로:
-
-* 최소/권장/고성능 목표(시간 단위) 3단계,
-* 마이크 위치/운전모드 커버리지 체크리스트,
-* 우리가 A/B/C 중 무엇을 언제 쓰는지 자동 라우팅 규칙,
-* 그리고 “95% KPI를 증명하기 위한 최소 검증 라벨 패키지”
-  까지 포함해 더 구체적으로 써드릴 수 있습니다.
 
 [1]: https://www.isca-archive.org/interspeech_2025/wu25b_interspeech.html "ISCA Archive - Towards Few-Shot Training-Free Anomaly Sound Detection"
 [2]: https://ar5iv.org/pdf/2409.05035 "[2409.05035] Deep Generic Representations for Domain-Generalized Anomalous Sound Detection"
